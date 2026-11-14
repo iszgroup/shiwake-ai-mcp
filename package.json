@@ -1,0 +1,53 @@
+{
+  "name": "shiwake-ai-mcp",
+  "version": "1.0.0",
+  "description": "AI アシスタントから日本の税務・会計の計算を使える MCP サーバー（年末調整の還付試算・勘定科目・インボイス登録番号の照合・消費税の方式比較）。MCP server for Japanese tax & accounting: year-end adjustment, account titles, invoice registration numbers, consumption tax.",
+  "type": "module",
+  "bin": {
+    "shiwake-ai-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "chatgpt",
+    "cursor",
+    "ai",
+    "japan",
+    "japanese",
+    "tax",
+    "accounting",
+    "bookkeeping",
+    "invoice",
+    "year-end-adjustment",
+    "consumption-tax",
+    "年末調整",
+    "勘定科目",
+    "仕訳",
+    "インボイス",
+    "消費税",
+    "税理士",
+    "会計事務所",
+    "shiwake"
+  ],
+  "homepage": "https://shiwake.ai/guide/kaikei-mcp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iszgroup/shiwake-ai-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iszgroup/shiwake-ai-mcp/issues"
+  },
+  "mcpName": "ai.shiwake/mcp",
+  "author": "ISZ GROUP LLC (https://shiwake.ai)",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=20.10"
+  }
+}
