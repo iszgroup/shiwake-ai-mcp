@@ -4,7 +4,7 @@
 
 日本語 | [English](#english)
 
-> 提供: [ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-top)（AI税務会計プラットフォーム。税理士・会計事務所、自社で申告する中小法人・個人事業主に）・姉妹プロダクト [DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-top)（AI 電話受付）
+> 提供: [ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-top)（記帳から決算・申告までをひとつで進められる AI 会計・申告ソフト）・姉妹プロダクト [DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-top)（AI 電話受付）
 
 日本の税務・会計の計算を、AI アシスタント（Claude・ChatGPT・Cursor など）から使えるようにする MCP サーバーです。
 [ISZ™ 仕訳AI（shiwake.ai）](https://shiwake.ai/?utm_source=mcp&utm_medium=referral&utm_campaign=readme) の無料ツールと同じ計算エンジンで、登録・ログインは不要です。
@@ -61,18 +61,14 @@ stdio で動かす場合:
 
 ## ISZ™ 仕訳AI について
 
-**証憑から申告まで、ひとつのAIで。** [ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about) は、税理士・会計事務所のための AI税務会計プラットフォームです。自社で決算・申告をする中小法人・個人事業主も使えます。
+[ISZ™ 仕訳AI（シワケAI／Shiwake AI）](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)は、記帳から決算・申告までをひとつで進められる AI 会計・申告ソフトです。
+領収書・請求書・通帳を AI が読み取って仕訳にし、決算書、法人税・消費税の申告書、e-Tax 用のデータまで作成できます。初期費用0円・月額の基本料金0円で、帳簿・決算・申告の機能は無料です（1人で使う場合）。
 
-- **証憑から申告まで1つで**：会計ソフトの機能がひと通りそろっています。領収書・請求書・通帳の AI 読み取りと仕訳、銀行照合から、帳簿（仕訳帳・総勘定元帳・現金出納帳・固定資産台帳）、試算表・決算書、申告書（法人税の別表・内訳書・概況書、消費税・地方税、個人の確定申告書・青色申告決算書）と e-Tax・eLTAX 用データ、給与計算・年末調整・法定調書、電子帳簿保存法に対応した証憑の保管まで同じ画面で。人が見るのは、AI が理由つきで分けた「要確認」の仕訳だけです
-- **会計・申告の機能は無料**：初期費用0円・月額の基本料金0円。帳簿・決算・申告・給与計算・年末調整の機能は無料（1人で使う場合）で、料金は AI の読み取り枚数とユーザーの追加だけです
-- **乗り換えなくても始められる**：JDL・TKC・弥生・freee・マネーフォワードなど16社の会計ソフトの形式で書き出せるので、今のソフトのまま入力だけ任せられます
-- **自社申告・個人事業主の確定申告にも**：[自社申告プラン](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)なら、中小法人の決算書・法人税・消費税、個人事業主の所得税の確定申告まで、申告書と e-Tax 用データを自社で作れます（[個人事業主の確定申告の流れ](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
-- **委託先の審査に通せる**：日税連「AI・クラウド活用ガイドライン」の確認項目に対応。データは国内で保管し、AI の学習には使いません
+- **税理士事務所・会計事務所の方へ**：記帳代行の効率化、顧問先からの証憑回収、JDL・TKC・弥生・freee・マネーフォワードなど16社の会計ソフトへの仕訳 CSV 出力（[事務所向けの料金比較](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
+- **ひとり社長・マイクロ法人の方へ**：自分でできる法人決算。帳簿から決算書、法人税・消費税の申告書、e-Tax 申告まで（[自社申告プラン](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
+- **個人事業主の方へ**：確定申告、インボイス、経費の考え方（[個人事業主の確定申告のやり方](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
 
-- [MCP サーバーの解説（つなぎ方・freee／マネーフォワードの MCP との違い）](https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)
-- [会計事務所向け AI 記帳サービスの料金比較](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)
-- [税理士・経理のための無料ツール（40種類）](https://shiwake.ai/tools/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)
-- [税金・会計の解説](https://shiwake.ai/guide/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)
+あわせて：[MCP サーバーの解説](https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)・[無料ツール（40種類）](https://shiwake.ai/tools/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)・[税金・会計の解説](https://shiwake.ai/guide/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)
 
 ## English
 
@@ -124,12 +120,12 @@ Guide (Japanese): https://shiwake.ai/guide/kaikei-mcp/
 
 [ISZ GROUP](https://iszgroup.com/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer) の AI チーム（[ISZ.AI](https://isz.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)）です。企業向けの AI システム開発と、2つの自社プロダクトを手がけています。
 
-**[ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)** — 証憑から申告まで、ひとつのAIで。税理士・会計事務所、自社で申告する中小法人・個人事業主のための AI税務会計プラットフォーム（この MCP サーバーの提供元）
+**[ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)** — 記帳から決算・申告までをひとつで進められる AI 会計・申告ソフト（この MCP サーバーの提供元）
 
 **[DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)** — 予約・受注・問い合わせの電話を AI が受けて、最後まで完了する AI 電話受付
 - [電話の予約受付・変更・キャンセルを自動化](https://denwaflow.jp/ai-phone-reservation/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)
 - 導入事例: [歯科クリニック（予約受付を24時間化）](https://denwaflow.jp/cases/dental-clinic-ai-phone/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)・[美容室（電話対応時間を約70%削減）](https://denwaflow.jp/cases/salon-ai-phone/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)
 
-The AI team of [ISZ GROUP](https://iszgroup.com/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer) ([ISZ.AI](https://isz.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)). We build AI systems for businesses and two products of our own: **[ISZ™ Shiwake AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (from receipts to tax filing, in one AI: an AI tax & accounting platform for tax accountants and accounting firms, and for small companies and sole proprietors filing their own returns; the provider of this MCP server) and **[DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (an AI phone agent that takes reservations, orders and inquiries end to end).
+The AI team of [ISZ GROUP](https://iszgroup.com/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer) ([ISZ.AI](https://isz.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)). We build AI systems for businesses and two products of our own: **[ISZ™ Shiwake AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (AI accounting and tax filing software that takes you from bookkeeping to year-end closing and tax returns in one place; the provider of this MCP server) and **[DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (an AI phone agent that takes reservations, orders and inquiries end to end).
 
 提供: ISZ GROUP合同会社 / ISZ GROUP LLC
