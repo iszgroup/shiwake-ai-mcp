@@ -113,7 +113,16 @@ Claude Desktop, Cursor, etc. (config file):
 - The server logs only the tool name and whether the call succeeded. Amounts, registration numbers and IP addresses are not logged.
 - Requests are limited to 60 per minute per client.
 
-Guide (Japanese): https://shiwake.ai/guide/kaikei-mcp/
+### About ISZ™ Shiwake AI
+
+[ISZ™ Shiwake AI (シワケAI)](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en) is AI accounting and tax filing software that takes you from bookkeeping to year-end closing and tax returns in one place.
+AI reads receipts, invoices and bank statements and turns them into journal entries, then produces financial statements, corporate tax and consumption tax returns, and e-Tax filing data. No setup fee and no monthly base fee; bookkeeping, closing and tax filing features are free for a single user.
+
+- **For tax accountants and accounting firms**: faster bookkeeping for clients, collecting receipts from clients, and journal CSV export to 16 accounting software formats including JDL, TKC, Yayoi, freee and Money Forward
+- **For solo founders and micro-corporations**: do your own corporate closing, from double-entry bookkeeping to financial statements, tax returns and e-Tax filing ([self-filing plan](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en))
+- **For sole proprietors**: income tax returns, the qualified invoice system and how to treat expenses
+
+Guide (Japanese): https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en
 
 
 ## 提供 / About us
