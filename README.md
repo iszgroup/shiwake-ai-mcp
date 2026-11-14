@@ -110,5 +110,13 @@ Claude Desktop, Cursor, etc. (config file):
 Guide (Japanese): https://shiwake.ai/guide/kaikei-mcp/
 
 
-提供: ISZ GROUP合同会社（ISZ™ 仕訳AI） https://shiwake.ai  
-Provided by ISZ GROUP LLC (ISZ™ Shiwake AI) https://shiwake.ai
+## 提供 / About us
+
+ISZ GROUP の AI チーム（ISZ.AI）です。企業向けの AI システム開発と、2つの自社プロダクトを手がけています。
+
+- [ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp&utm_medium=referral&utm_campaign=readme-footer)：税理士・会計事務所の記帳から申告まで（この MCP サーバーの提供元）
+- [DenwaFlow](https://denwaflow.jp/?utm_source=mcp&utm_medium=referral&utm_campaign=readme-footer)：AI 電話受付
+
+The AI team of ISZ GROUP (ISZ.AI). We build AI systems for businesses and two products of our own: **ISZ™ Shiwake AI** (bookkeeping to tax filing for accounting firms, the provider of this MCP server) and **DenwaFlow** (AI phone reception).
+
+提供: ISZ GROUP合同会社 / ISZ GROUP LLC
