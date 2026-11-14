@@ -122,7 +122,7 @@ AI reads receipts, invoices and bank statements and turns them into journal entr
 - **For solo founders and micro-corporations**: do your own corporate closing, from double-entry bookkeeping to financial statements, tax returns and e-Tax filing ([self-filing plan](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en))
 - **For sole proprietors**: income tax returns, the qualified invoice system and how to treat expenses
 
-Guide (Japanese): https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en
+Guide (Japanese): [https://shiwake.ai](https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en)
 
 
 ## 提供 / About us
