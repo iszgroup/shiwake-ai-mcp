@@ -116,7 +116,7 @@ Guide (Japanese): https://shiwake.ai/guide/kaikei-mcp/
 
 ## 提供 / About us
 
-ISZ GROUP の AI チーム（ISZ.AI）です。企業向けの AI システム開発と、2つの自社プロダクトを手がけています。
+[ISZ GROUP](https://iszgroup.com/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer) の AI チーム（[ISZ.AI](https://isz.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)）です。企業向けの AI システム開発と、2つの自社プロダクトを手がけています。
 
 **[ISZ™ 仕訳AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)** — 税理士・会計事務所の記帳から申告まで（この MCP サーバーの提供元）
 
@@ -124,6 +124,6 @@ ISZ GROUP の AI チーム（ISZ.AI）です。企業向けの AI システム�
 - [電話の予約受付・変更・キャンセルを自動化](https://denwaflow.jp/ai-phone-reservation/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)
 - 導入事例: [歯科クリニック（予約受付を24時間化）](https://denwaflow.jp/cases/dental-clinic-ai-phone/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)・[美容室（電話対応時間を約70%削減）](https://denwaflow.jp/cases/salon-ai-phone/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)
 
-The AI team of ISZ GROUP (ISZ.AI). We build AI systems for businesses and two products of our own: **[ISZ™ Shiwake AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (bookkeeping to tax filing for accounting firms, the provider of this MCP server) and **[DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (an AI phone agent that takes reservations, orders and inquiries end to end).
+The AI team of [ISZ GROUP](https://iszgroup.com/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer) ([ISZ.AI](https://isz.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer)). We build AI systems for businesses and two products of our own: **[ISZ™ Shiwake AI](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (bookkeeping to tax filing for accounting firms, the provider of this MCP server) and **[DenwaFlow](https://denwaflow.jp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-footer-en)** (an AI phone agent that takes reservations, orders and inquiries end to end).
 
 提供: ISZ GROUP合同会社 / ISZ GROUP LLC
