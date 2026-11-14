@@ -20,6 +20,11 @@
 | `kanjo_kamoku_kensaku` | 取引の内容から勘定科目・仕訳例・税区分を検索 | https://shiwake.ai/tools/kanjo-kamoku/ |
 | `invoice_toroku_bango_check` | インボイス登録番号（T＋13桁）の形式・チェックディジットの確認と、国税庁の公表データとの照合（登録の有無・名称・取消／失効） | https://shiwake.ai/tools/invoice-number/ |
 | `shohizei_hoshiki_hikaku` | 消費税の納付税額の比較（一般課税・簡易課税・2割特例・3割特例。仕入は積上げ・割戻しの両方） | https://shiwake.ai/tools/shohizei-hikaku/ |
+| `gensen_kyuyo_zeigaku` | 給与の源泉徴収税額（月額表 甲欄・乙欄、電算機計算の特例。令和7〜9年分） | https://shiwake.ai/tools/gensen-kyuyo/ |
+| `furusato_nozei_jogen` | ふるさと納税の控除上限額の目安（自己負担2,000円で済む寄附額と控除の内訳） | https://shiwake.ai/tools/furusato/ |
+| `entaizei_keisan` | 延滞税の計算（2か月以内・2か月を過ぎた後の割合を年ごとに。期限後申告・修正申告・更正、一部納付に対応） | https://shiwake.ai/tools/entaizei/ |
+| `genka_shokyaku_keisan` | 減価償却費（定額法・200%定率法）の各年度の償却額と期末帳簿価額、少額資産・一括償却の判定 | https://shiwake.ai/tools/genka-shokyaku/ |
+| `kyuyo_tedori_keisan` | 給与の手取り額と社会保険料（協会けんぽ・厚生年金・雇用保険・源泉所得税。会社負担も） | https://shiwake.ai/tools/kyuyo-tedori/ ・ https://shiwake.ai/tools/shakai-hoken/ |
 
 どのツールも読み取り専用で、結果には根拠となる shiwake.ai のページへのリンクが付きます。結果は一般的な計算・処理の例で、個別の税務判断ではありません。
 
@@ -56,7 +61,7 @@ stdio で動かす場合:
 ## データの扱い
 
 - ログイン・API キーは不要です。
-- サーバーが記録するのは、呼ばれたツールの名前と成否だけです。入力した金額・番号・IP アドレスは記録しません。
+- ツールに入力した金額・番号・取引の内容と、計算の結果は記録しません。記録するのは、どのツールが使われたか・成否などの利用状況だけです（[プライバシーポリシー](https://shiwake.ai/mcp/privacy/)）。
 - 利用の集中を防ぐため、接続元ごとに 1分あたり 60回までに制限しています。
 
 ## ISZ™ 仕訳AI について
@@ -88,6 +93,11 @@ It uses the same calculation engine as the free tools on [ISZ™ Shiwake AI (shi
 | `kanjo_kamoku_kensaku` | Finds the account title (kanjo kamoku), sample journal entry and consumption tax category for a transaction | https://shiwake.ai/tools/kanjo-kamoku/ |
 | `invoice_toroku_bango_check` | Validates qualified invoice registration numbers (T + 13 digits) and matches them against the National Tax Agency's published data (registered or not, name, cancellation/expiry) | https://shiwake.ai/tools/invoice-number/ |
 | `shohizei_hoshiki_hikaku` | Compares consumption tax payable under the general method, simplified method, 20% special rule and 30% special rule | https://shiwake.ai/tools/shohizei-hikaku/ |
+| `gensen_kyuyo_zeigaku` | Monthly income tax withholding on salary (NTA monthly table, columns A and B, 2025 to 2027) | https://shiwake.ai/tools/gensen-kyuyo/ |
+| `furusato_nozei_jogen` | Estimates the furusato nozei (hometown tax donation) limit where the out-of-pocket cost stays at 2,000 yen | https://shiwake.ai/tools/furusato/ |
+| `entaizei_keisan` | Calculates delinquent tax (entaizei) on national taxes, split into the first two months and after, with yearly rates | https://shiwake.ai/tools/entaizei/ |
+| `genka_shokyaku_keisan` | Depreciation schedule (straight-line or 200% declining-balance) with yearly amounts and book values, plus small-asset options | https://shiwake.ai/tools/genka-shokyaku/ |
+| `kyuyo_tedori_keisan` | Monthly take-home pay with social insurance premiums (Kyokai Kenpo health insurance, pension, employment insurance) and withholding tax | https://shiwake.ai/tools/kyuyo-tedori/ |
 
 All tools are read-only, and every result links to the shiwake.ai page it is based on. Results are general calculation examples, not individual tax advice. Tool descriptions and results are in Japanese.
 
@@ -112,7 +122,7 @@ Claude Desktop, Cursor, etc. (config file):
 ### Data handling
 
 - No login or API key required.
-- The server logs only the tool name and whether the call succeeded. Amounts, registration numbers and IP addresses are not logged.
+- Amounts, registration numbers, transaction details and results are not logged. We record only usage information such as which tool was called and whether it succeeded ([privacy policy](https://shiwake.ai/mcp/privacy/)).
 - Requests are limited to 60 per minute per client.
 
 ### About ISZ™ Shiwake AI
