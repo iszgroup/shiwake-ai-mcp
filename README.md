@@ -62,11 +62,13 @@ stdio で動かす場合:
 ## ISZ™ 仕訳AI について
 
 [ISZ™ 仕訳AI（シワケAI／Shiwake AI）](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)は、記帳から決算・申告までをひとつで進められる AI 会計・申告ソフトです。
-領収書・請求書・通帳を AI が読み取って仕訳にし、決算書、法人税・消費税の申告書、e-Tax 用のデータまで作成できます。初期費用0円・月額の基本料金0円で、帳簿・決算・申告の機能は無料です（1人で使う場合）。
+領収書・請求書・通帳を AI が読み取って仕訳にし、帳簿・決算書から、法人税・消費税・地方税・所得税の申告書と e-Tax・eLTAX 用データ、給与計算・年末調整・法定調書まで、同じ画面で作成できます。初期費用0円・月額の基本料金0円で、会計・申告の機能は無料です（1人で使う場合）。
 
-- **税理士事務所・会計事務所の方へ**：記帳代行の効率化、顧問先からの証憑回収、JDL・TKC・弥生・freee・マネーフォワードなど16社の会計ソフトへの仕訳 CSV 出力（[事務所向けの料金比較](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
-- **ひとり社長・マイクロ法人の方へ**：自分でできる法人決算。帳簿から決算書、法人税・消費税の申告書、e-Tax 申告まで（[自社申告プラン](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
-- **個人事業主の方へ**：確定申告、インボイス、経費の考え方（[個人事業主の確定申告のやり方](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
+**すべての機能を、立場に合わせて使えます。**
+
+- **税理士事務所・会計事務所**：顧問先の記帳から決算・申告まで、事務所の中で完結。顧問先からの証憑回収、AI が分けた「要確認」だけのチェック、今の会計ソフト（JDL・TKC・弥生など16社）への書き出しにも対応（[事務所向けの料金比較](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
+- **自社で経理・申告する中小法人・ひとり社長**：帳簿から決算書、法人税・消費税の申告、e-Tax まで自社で（[自社申告プラン](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
+- **個人事業主**：帳簿から青色申告決算書・確定申告書、e-Tax まで（[個人事業主の確定申告のやり方](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)）
 
 あわせて：[MCP サーバーの解説](https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)・[無料ツール（40種類）](https://shiwake.ai/tools/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)・[税金・会計の解説](https://shiwake.ai/guide/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about)
 
@@ -116,11 +118,15 @@ Claude Desktop, Cursor, etc. (config file):
 ### About ISZ™ Shiwake AI
 
 [ISZ™ Shiwake AI (シワケAI)](https://shiwake.ai/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en) is AI accounting and tax filing software that takes you from bookkeeping to year-end closing and tax returns in one place.
-AI reads receipts, invoices and bank statements and turns them into journal entries, then produces financial statements, corporate tax and consumption tax returns, and e-Tax filing data. No setup fee and no monthly base fee; bookkeeping, closing and tax filing features are free for a single user.
+AI reads receipts, invoices and bank statements and turns them into journal entries. From there you can produce ledgers and financial statements, corporate, consumption, local and income tax returns with e-Tax/eLTAX data, and payroll, year-end adjustment and statutory reports, all on the same screen. No setup fee and no monthly base fee; accounting and tax filing features are free for a single user.
 
-- **For tax accountants and accounting firms**: faster bookkeeping for clients, collecting receipts from clients, and journal CSV export to 16 accounting software formats including JDL, TKC, Yayoi, freee and Money Forward
-- **For solo founders and micro-corporations**: do your own corporate closing, from double-entry bookkeeping to financial statements, tax returns and e-Tax filing ([self-filing plan](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en))
-- **For sole proprietors**: income tax returns, the qualified invoice system and how to treat expenses
+**Every feature, used the way you work:**
+
+- **Tax accountants and accounting firms**: handle clients from bookkeeping to closing and tax filing in-house, with receipt collection from clients, review of only the entries AI flags, and export to 16 accounting software formats including JDL, TKC and Yayoi ([pricing for firms, Japanese](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en))
+- **Small companies and solo founders filing their own returns**: from bookkeeping to financial statements, corporate and consumption tax returns, and e-Tax ([self-filing plan](https://shiwake.ai/self/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en))
+- **Sole proprietors**: from bookkeeping to blue-return statements, income tax returns, and e-Tax ([guide, Japanese](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en))
+
+More: [free tools (40)](https://shiwake.ai/tools/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en) · [tax & accounting guides](https://shiwake.ai/guide/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en)
 
 Guide (Japanese): [https://shiwake.ai](https://shiwake.ai/guide/kaikei-mcp/?utm_source=mcp-readme&utm_medium=referral&utm_campaign=readme-about-en)
 
