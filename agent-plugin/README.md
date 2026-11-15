@@ -39,9 +39,10 @@ individual tax advice.
 
 ## About
 
-ISZ Shiwake AI (https://shiwake.ai/) is an AI accounting and tax filing app for Japanese accounting firms
+[ISZ Shiwake AI](https://shiwake.ai/) is an AI accounting and tax filing app for Japanese accounting firms
 and small businesses: bookkeeping, financial statements, payroll and tax returns with e-Tax / eLTAX data
-are free, and only the AI features use AI credits. Developed by ISZ.AI (https://isz.ai/), ISZ GROUP LLC.
+are free, and only the AI features use AI credits. Developed by [ISZ.AI](https://isz.ai/), the enterprise AI
+brand of [ISZ GROUP LLC](https://iszgroup.com/) (Osaka, Japan).
 
-ISZ™ 仕訳AI（https://shiwake.ai/ ）は、税理士事務所・中小企業向けの AI 会計・申告ソフトです。
-開発：ISZ.AI（ISZ GROUP合同会社）
+[ISZ™ 仕訳AI](https://shiwake.ai/) は、税理士事務所・中小企業向けの AI 会計・申告ソフトです。
+開発：[ISZ.AI](https://isz.ai/)（[ISZ GROUP合同会社](https://iszgroup.com/)・大阪）
