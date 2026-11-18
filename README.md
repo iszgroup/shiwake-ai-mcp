@@ -66,8 +66,8 @@ stdio で動かす場合:
 
 ## ISZ™ 仕訳AI について
 
-[ISZ™ 仕訳AI（シワケAI／Shiwake AI）](https://shiwake.ai/)は、記帳から決算・申告までをひとつで進められる AI 会計・申告ソフトです。
-領収書・請求書・通帳を AI が読み取って仕訳にし、帳簿・決算書から、法人税・消費税・地方税・所得税の申告書と e-Tax・eLTAX 用データ、給与計算・年末調整・法定調書まで、同じ画面で作成できます。初期費用0円・月額の基本料金0円で、会計・申告の機能は無料です（1人で使う場合）。
+[ISZ™ 仕訳AI（シワケAI／Shiwake AI）](https://shiwake.ai/)は、税理士事務所・中小企業向けの AI 会計・申告ソフトです。
+領収書・請求書・通帳を AI が読み取って仕訳にし、帳簿・決算書から、法人税・消費税・地方税・所得税の申告書と e-Tax・eLTAX 用データ、給与計算・年末調整・法定調書まで、同じ画面で作成できます。仕訳は JDL・TKC・弥生など16社の会計ソフトの取込形式でも出力できるので、いまの会計ソフトのまま AI 仕訳だけ取り入れることもできます。会計・申告の基本機能は無料、AI は利用量に応じた料金です。
 
 **すべての機能を、立場に合わせて使えます。**
 
@@ -75,7 +75,7 @@ stdio で動かす場合:
 - **自社で経理・申告する中小法人・ひとり社長**：帳簿から決算書、法人税・消費税の申告、e-Tax まで自社で（[自社申告プラン](https://shiwake.ai/self/)）
 - **個人事業主**：帳簿から青色申告決算書・確定申告書、e-Tax まで（[個人事業主の確定申告のやり方](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/)）
 
-あわせて：[MCP サーバーの解説](https://shiwake.ai/guide/kaikei-mcp/)・[無料ツール（40種類）](https://shiwake.ai/tools/)・[税金・会計の解説](https://shiwake.ai/guide/)
+あわせて：[MCP サーバーの解説](https://shiwake.ai/guide/kaikei-mcp/)・[無料ツール（40種類以上）](https://shiwake.ai/tools/)・[税金・会計の解説](https://shiwake.ai/guide/)
 
 ## English
 
@@ -127,8 +127,8 @@ Claude Desktop, Cursor, etc. (config file):
 
 ### About ISZ™ Shiwake AI
 
-[ISZ™ Shiwake AI (シワケAI)](https://shiwake.ai/) is AI accounting and tax filing software that takes you from bookkeeping to year-end closing and tax returns in one place.
-AI reads receipts, invoices and bank statements and turns them into journal entries. From there you can produce ledgers and financial statements, corporate, consumption, local and income tax returns with e-Tax/eLTAX data, and payroll, year-end adjustment and statutory reports, all on the same screen. No setup fee and no monthly base fee; accounting and tax filing features are free for a single user.
+[ISZ™ Shiwake AI (シワケAI)](https://shiwake.ai/) is AI accounting and tax filing software for Japanese accounting firms (zeirishi offices) and small businesses.
+AI reads receipts, invoices and bank statements and turns them into journal entries. From there you can produce ledgers and financial statements, corporate, consumption, local and income tax returns with e-Tax/eLTAX data, and payroll, year-end adjustment and statutory reports, all on the same screen. Journal entries can also be exported in the import formats of 16 Japanese accounting packages including JDL, TKC and Yayoi, so you can add AI bookkeeping without changing your current software. Core accounting and tax filing features are free; AI is priced by usage.
 
 **Every feature, used the way you work:**
 
@@ -136,7 +136,7 @@ AI reads receipts, invoices and bank statements and turns them into journal entr
 - **Small companies and solo founders filing their own returns**: from bookkeeping to financial statements, corporate and consumption tax returns, and e-Tax ([self-filing plan](https://shiwake.ai/self/))
 - **Sole proprietors**: from bookkeeping to blue-return statements, income tax returns, and e-Tax ([guide, Japanese](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/))
 
-More: [free tools (40)](https://shiwake.ai/tools/) · [tax & accounting guides](https://shiwake.ai/guide/)
+More: [free tools (40+)](https://shiwake.ai/tools/) · [tax & accounting guides](https://shiwake.ai/guide/)
 
 Guide (Japanese): [https://shiwake.ai](https://shiwake.ai/guide/kaikei-mcp/)
 
