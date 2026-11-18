@@ -1,0 +1,37 @@
+# npm への公開（Trusted Publishing：GitHub Actions の OIDC。トークンを置かない）。
+# 公開 repo iszgroup/shiwake-ai-mcp の .github/workflows/publish.yml に入る（源码 repo の ci/publish.yml を scripts/build-public.mjs が写す）。
+# npmjs.com の Trusted Publisher 登録: GitHub Actions / iszgroup / shiwake-ai-mcp / publish.yml / Environment なし（2026-11-18）
+# 使い方: public/ を公開 repo に push → package.json の version と同じタグ（例 v1.1.6）を push すると公開される。
+# MCP Registry（ai.shiwake/mcp）はドメインの鍵で認証するため、ここでは公開しない（mcp-publisher publish を手で）。
+name: Publish to npm
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+      # Trusted Publishing には npm 11.5.1 以上が要る
+      - run: npm install -g npm@latest
+      - name: Tag must match package.json version
+        run: |
+          v="v$(node -p "require('./package.json').version")"
+          if [ "$v" != "$GITHUB_REF_NAME" ]; then echo "tag $GITHUB_REF_NAME does not match package.json $v"; exit 1; fi
+      - name: Smoke test (MCP initialize over stdio)
+        run: |
+          out=$(printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"ci","version":"0"}}}' | node dist/index.js)
+          echo "$out" | head -c 200
+          echo "$out" | grep -q '"serverInfo"'
+          echo "$out" | grep -q "\"version\":\"${GITHUB_REF_NAME#v}\""
+      - run: npm publish --provenance --access public
