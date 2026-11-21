@@ -4,7 +4,7 @@
 
 日本語 | [English](#english)
 
-> 提供: [ISZ™ 仕訳AI](https://shiwake.ai/)（記帳から決算・申告までをひとつで進められる AI 会計・申告ソフト）・姉妹プロダクト [DenwaFlow](https://denwaflow.jp/)（AI 電話受付）
+> 提供: [ISZ™ 仕訳AI](https://shiwake.ai/)（記帳から決算・申告までをひとつで進められる AI 会計・申告ソフト）
 
 日本の税務・会計の計算を、AI アシスタント（Claude・ChatGPT・Cursor など）から使えるようにする MCP サーバーです。
 [ISZ™ 仕訳AI（shiwake.ai）](https://shiwake.ai/) の無料ツールと同じ計算エンジンで、登録・ログインは不要です。
@@ -191,14 +191,8 @@ Guide (Japanese): [https://shiwake.ai/mcp/](https://shiwake.ai/mcp/)
 
 ## 提供 / About us
 
-[ISZ GROUP](https://iszgroup.com/) の AI チーム（[ISZ.AI](https://isz.ai/)）です。企業向けの AI システム開発と、2つの自社プロダクトを手がけています。
+[ISZ GROUP](https://iszgroup.com/) の AI チーム（[ISZ.AI](https://isz.ai/)）です。自社プロダクト：[ISZ 仕訳AI](https://shiwake.ai/)（この MCP サーバーの提供元）・[DenwaFlow](https://denwaflow.jp/)（AI 電話受付）。
 
-**[ISZ™ 仕訳AI](https://shiwake.ai/)** — 記帳から決算・申告までをひとつで進められる AI 会計・申告ソフト（この MCP サーバーの提供元）
-
-**[DenwaFlow](https://denwaflow.jp/)** — 予約・受注・問い合わせの電話を AI が受けて、最後まで完了する AI 電話受付
-- [電話の予約受付・変更・キャンセルを自動化](https://denwaflow.jp/ai-phone-reservation/)
-- 導入事例: [歯科クリニック（予約受付を24時間化）](https://denwaflow.jp/cases/dental-clinic-ai-phone/)・[美容室（電話対応時間を約70%削減）](https://denwaflow.jp/cases/salon-ai-phone/)
-
-The AI team of [ISZ GROUP](https://iszgroup.com/) ([ISZ.AI](https://isz.ai/)). We build AI systems for businesses and two products of our own: **[ISZ™ Shiwake AI](https://shiwake.ai/)** (AI accounting and tax filing software that takes you from bookkeeping to year-end closing and tax returns in one place; the provider of this MCP server) and **[DenwaFlow](https://denwaflow.jp/)** (an AI phone agent that takes reservations, orders and inquiries end to end).
+The AI team of [ISZ GROUP](https://iszgroup.com/) ([ISZ.AI](https://isz.ai/)). Our products: [ISZ Shiwake AI](https://shiwake.ai/) (the provider of this MCP server) and [DenwaFlow](https://denwaflow.jp/) (AI phone agent).
 
 提供: ISZ GROUP合同会社 / ISZ GROUP LLC
