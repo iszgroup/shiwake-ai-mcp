@@ -1,6 +1,6 @@
 # ISZ™ 仕訳AI MCP サーバー（shiwake.ai）
 
-[![npm](https://img.shields.io/npm/v/shiwake-ai-mcp)](https://www.npmjs.com/package/shiwake-ai-mcp) [![MCP endpoint](https://img.shields.io/badge/MCP-mcp.shiwake.ai-blue)](https://shiwake.ai/guide/kaikei-mcp/)
+[![npm](https://img.shields.io/npm/v/shiwake-ai-mcp)](https://www.npmjs.com/package/shiwake-ai-mcp) [![MCP endpoint](https://img.shields.io/badge/MCP-mcp.shiwake.ai-blue)](https://shiwake.ai/mcp/)
 
 日本語 | [English](#english)
 
@@ -56,7 +56,57 @@ stdio で動かす場合:
 }
 ```
 
+Antigravity CLI（`~/.gemini/config/mcp_config.json`。接続先は `serverUrl`）:
+
+```json
+{
+  "mcpServers": {
+    "shiwake-ai": { "serverUrl": "https://mcp.shiwake.ai/mcp" }
+  }
+}
+```
+
+Gemini CLI（拡張機能として追加。このリポジトリの `gemini-extension.json` を読み込みます）:
+
+```sh
+gemini extensions install https://github.com/iszgroup/shiwake-ai-mcp
+```
+
+ほかのアプリの手順: [MCP サーバーの案内（shiwake.ai/mcp/）](https://shiwake.ai/mcp/)
+
 聞き方の例: 「給与収入480万円、社会保険料72万円、源泉徴収税額12万円。年末調整でいくら戻る？」「ChatGPT の利用料の勘定科目は？」「T1120001160730 は正しい登録番号？」
+
+## ISZ 仕訳AI と MCP / ISZ Shiwake AI and MCP
+
+ISZ 仕訳AI（https://shiwake.ai/）は、日本の税理士事務所と、自社で記帳・決算・申告を行う中小企業（一人社長の法人を含む）・個人事業主向けの AI 記帳・会計・申告ソフトです。この MCP サーバーは、その計算エンジンを AI アシスタントから登録なしで使えるようにしたものです。
+
+### 機能の対応表
+
+| 機能 | ISZ 仕訳AI（アプリ） | ISZ 仕訳AI MCP |
+|---|---|---|
+| 税金の計算（年末調整の還付額・源泉徴収税額・手取りと社会保険料・ふるさと納税・減価償却・延滞税・消費税の方式比較） | ○ | ○ |
+| 勘定科目・仕訳例の検索 | ○ | ○ |
+| インボイス登録番号のチェック（国税庁の公表データと照合） | ○ | ○ |
+| レシート・領収書・請求書・通帳の AI OCR 読み取りと自動仕訳（スマホ撮影を含む） | ○ | 計画中 |
+| 仕訳の誤り・税務リスクの点検 | ○ | 計画中 |
+| JDL・TKC・弥生・freee・マネーフォワードなどとの仕訳データ連携（CSV など各社形式の書き出し・取り込み。顧問先と事務所でソフトが違うときの受け渡しや乗り換えを含む） | ○ | 計画中 |
+| 決算書と、法人税・消費税・所得税（青色申告決算書・確定申告書）の申告書・e-Tax 用データ | ○ | 計画中 |
+| 従業員の年末調整（申告書の回収・まとめて確定・源泉徴収票） | ○ | 1人分の試算のみ |
+| 複数の顧問先・職員（担当と権限）の管理 | ○ | 計画中 |
+
+MCP の「計画中」は、ログイン版（限定テスト中）で対応を予定している機能です。いまの公開版は登録不要・読み取り専用です。
+
+### よくある質問
+**この MCP は会計ソフトに書き込みますか？**
+いまの公開版は読み取り専用で、書き込みません。
+
+**計算結果をそのまま申告に使えますか？**
+この MCP の出力は一般的な計算・処理の例で、申告書ではなく、個別の税務判断でもありません。
+
+### English
+ISZ Shiwake AI (https://shiwake.ai/) is an AI bookkeeping, accounting and tax filing app for Japanese accounting firms (zeirishi offices), SMBs (including one-person companies) and sole proprietors. This MCP server makes its calculation engine available to AI assistants without sign-in. The table above compares the app and the MCP: the MCP currently offers tax calculations, account title search and invoice number lookup; the other features are available in the app and planned for the sign-in MCP (in limited testing).
+
+開発：ISZ.AI（ISZ GROUP合同会社・大阪）https://isz.ai/ ／ Developed by ISZ.AI (ISZ Group LLC, Osaka, Japan).
 
 ## データの扱い
 
@@ -64,18 +114,9 @@ stdio で動かす場合:
 - ツールに入力した金額・番号・取引の内容と、計算の結果は記録しません。記録するのは、どのツールが使われたか・成否などの利用状況だけです（[プライバシーポリシー](https://shiwake.ai/mcp/privacy/)）。
 - 利用の集中を防ぐため、接続元ごとに 1分あたり 60回までに制限しています。
 
-## ISZ™ 仕訳AI について
+## お問い合わせ
 
-[ISZ™ 仕訳AI（シワケAI／Shiwake AI）](https://shiwake.ai/)は、税理士事務所・中小企業向けの AI 会計・申告ソフトです。
-領収書・請求書・通帳を AI が読み取って仕訳にし、帳簿・決算書から、法人税・消費税・地方税・所得税の申告書と e-Tax・eLTAX 用データ、給与計算・年末調整・法定調書まで、同じ画面で作成できます。仕訳は JDL・TKC・弥生など16社の会計ソフトの取込形式でも出力できるので、いまの会計ソフトのまま AI 仕訳だけ取り入れることもできます。会計・申告の基本機能は無料、AI は利用量に応じた料金です。
-
-**すべての機能を、立場に合わせて使えます。**
-
-- **税理士事務所・会計事務所**：顧問先の記帳から決算・申告まで、事務所の中で完結。顧問先からの証憑回収、AI が分けた「要確認」だけのチェック、今の会計ソフト（JDL・TKC・弥生など16社）への書き出しにも対応（[事務所向けの料金比較](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/)）
-- **自社で経理・申告する中小法人・ひとり社長**：帳簿から決算書、法人税・消費税の申告、e-Tax まで自社で（[自社申告プラン](https://shiwake.ai/self/)）
-- **個人事業主**：帳簿から青色申告決算書・確定申告書、e-Tax まで（[個人事業主の確定申告のやり方](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/)）
-
-あわせて：[MCP サーバーの解説](https://shiwake.ai/guide/kaikei-mcp/)・[無料ツール（40種類以上）](https://shiwake.ai/tools/)・[税金・会計の解説](https://shiwake.ai/guide/)
+不具合・ご質問は contact@isz.ai（ISZ GROUP合同会社）までご連絡ください。GitHub の Issues でも受け付けます。
 
 ## English
 
@@ -119,26 +160,33 @@ Claude Desktop, Cursor, etc. (config file):
 }
 ```
 
+Antigravity CLI (`~/.gemini/config/mcp_config.json`, use `serverUrl`):
+
+```json
+{
+  "mcpServers": {
+    "shiwake-ai": { "serverUrl": "https://mcp.shiwake.ai/mcp" }
+  }
+}
+```
+
+Gemini CLI (as an extension, using this repository's `gemini-extension.json`):
+
+```sh
+gemini extensions install https://github.com/iszgroup/shiwake-ai-mcp
+```
+
 ### Data handling
 
 - No login or API key required.
 - Amounts, registration numbers, transaction details and results are not logged. We record only usage information such as which tool was called and whether it succeeded ([privacy policy](https://shiwake.ai/mcp/privacy/)).
 - Requests are limited to 60 per minute per client.
 
-### About ISZ™ Shiwake AI
+### Support
 
-[ISZ™ Shiwake AI (シワケAI)](https://shiwake.ai/) is AI accounting and tax filing software for Japanese accounting firms (zeirishi offices) and small businesses.
-AI reads receipts, invoices and bank statements and turns them into journal entries. From there you can produce ledgers and financial statements, corporate, consumption, local and income tax returns with e-Tax/eLTAX data, and payroll, year-end adjustment and statutory reports, all on the same screen. Journal entries can also be exported in the import formats of 16 Japanese accounting packages including JDL, TKC and Yayoi, so you can add AI bookkeeping without changing your current software. Core accounting and tax filing features are free; AI is priced by usage.
+For bugs or questions, contact contact@isz.ai (ISZ GROUP LLC) or open a GitHub issue.
 
-**Every feature, used the way you work:**
-
-- **Tax accountants and accounting firms**: handle clients from bookkeeping to closing and tax filing in-house, with receipt collection from clients, review of only the entries AI flags, and export to 16 accounting software formats including JDL, TKC and Yayoi ([pricing for firms, Japanese](https://shiwake.ai/guide/jimusho-ai-kicho-ryokin-hikaku/))
-- **Small companies and solo founders filing their own returns**: from bookkeeping to financial statements, corporate and consumption tax returns, and e-Tax ([self-filing plan](https://shiwake.ai/self/))
-- **Sole proprietors**: from bookkeeping to blue-return statements, income tax returns, and e-Tax ([guide, Japanese](https://shiwake.ai/guide/kojin-kakutei-shinkoku-app/))
-
-More: [free tools (40+)](https://shiwake.ai/tools/) · [tax & accounting guides](https://shiwake.ai/guide/)
-
-Guide (Japanese): [https://shiwake.ai](https://shiwake.ai/guide/kaikei-mcp/)
+Guide (Japanese): [https://shiwake.ai/mcp/](https://shiwake.ai/mcp/)
 
 
 ## 提供 / About us

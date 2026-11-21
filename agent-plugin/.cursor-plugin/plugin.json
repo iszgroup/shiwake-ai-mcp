@@ -1,0 +1,28 @@
+{
+  "name": "shiwake-ai",
+  "version": "1.1.7",
+  "description": "ISZ 仕訳AI（Shiwake AI）— 日本の税務・会計 / Japanese tax & accounting. Calculators: year-end adjustment refund, payroll withholding tax, take-home pay and social insurance, furusato nozei limit, depreciation, late-payment tax, consumption tax comparison, account titles with sample journal entries, and qualified invoice registration number checks. Read-only MCP server of ISZ Shiwake AI (ISZ 仕訳AI) for Japanese tax calculations, account title search and invoice number lookup. ISZ Shiwake AI is accounting and tax filing software for Japanese accounting firms, SMBs and sole proprietors.",
+  "author": {
+    "name": "ISZ GROUP LLC",
+    "email": "contact@isz.ai"
+  },
+  "homepage": "https://shiwake.ai/mcp/",
+  "repository": "https://github.com/iszgroup/shiwake-ai-mcp",
+  "keywords": [
+    "japan",
+    "tax",
+    "accounting",
+    "bookkeeping",
+    "payroll",
+    "invoice",
+    "consumption-tax",
+    "year-end-adjustment",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": {
+    "shiwake-ai": {
+      "url": "https://mcp.shiwake.ai/mcp"
+    }
+  }
+}
