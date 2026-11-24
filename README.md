@@ -1,8 +1,6 @@
 # ISZ™ 仕訳AI MCP サーバー（shiwake.ai）
 
-[![iszgroup/shiwake-ai-mcp MCP server](https://glama.ai/mcp/servers/iszgroup/shiwake-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iszgroup/shiwake-ai-mcp)
-
-[![npm](https://img.shields.io/npm/v/shiwake-ai-mcp)](https://www.npmjs.com/package/shiwake-ai-mcp) [![MCP endpoint](https://img.shields.io/badge/MCP-mcp.shiwake.ai-blue)](https://shiwake.ai/mcp/)
+[![npm](https://badgen.net/npm/v/shiwake-ai-mcp)](https://www.npmjs.com/package/shiwake-ai-mcp) [![MCP endpoint](https://badgen.net/badge/MCP/mcp.shiwake.ai/blue)](https://shiwake.ai/mcp/) [![iszgroup/shiwake-ai-mcp MCP server](https://glama.ai/mcp/servers/iszgroup/shiwake-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iszgroup/shiwake-ai-mcp)
 
 日本語 | [English](#english)
 
