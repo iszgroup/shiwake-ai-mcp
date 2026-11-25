@@ -3,7 +3,7 @@
 Agent Plugins v1 package (plugin.json + mcp.json + skills/) that connects an agent to the free
 ISZ Shiwake AI MCP server at `https://mcp.shiwake.ai/mcp`. Configuration only: there is no local code.
 
-AI エージェントから日本の税務・会計の計算を使えるプラグインです。接続先は ISZ™ 仕訳AI の無料 MCP サーバー
+AI エージェントから日本の税務・会計の計算を使えるプラグインです。接続先は ISZ 仕訳AI の無料 MCP サーバー
 （https://mcp.shiwake.ai/mcp ・登録不要・読み取り専用）です。
 
 ## Tools
@@ -31,7 +31,7 @@ All nine tools are read-only. Results are in Japanese and link to the matching c
 
 ## Disclosure
 
-Hosted-only connector. Every tool call goes to mcp.shiwake.ai, run by ISZ GROUP LLC (Osaka, Japan).
+Hosted-only connector. Every tool call goes to mcp.shiwake.ai, run by ISZ GROUP LLC (Japan).
 The tools take amounts, dates and invoice numbers; do not enter names or My Number. The package marks
 the server untrusted, so Hermes asks before any tool that is not annotated read-only. The tool set is
 served by the remote server at runtime. Results are general calculations under Japanese tax rules, not
@@ -42,7 +42,7 @@ individual tax advice.
 [ISZ Shiwake AI](https://shiwake.ai/) is an AI accounting and tax filing app for Japanese accounting firms
 and small businesses: bookkeeping, financial statements, payroll and tax returns with e-Tax / eLTAX data
 are free, and only the AI features use AI credits. Developed by [ISZ.AI](https://isz.ai/), the enterprise AI
-brand of [ISZ GROUP LLC](https://iszgroup.com/) (Osaka, Japan).
+brand of [ISZ GROUP LLC](https://iszgroup.com/) (Japan).
 
-[ISZ™ 仕訳AI](https://shiwake.ai/) は、税理士事務所・中小企業向けの AI 会計・申告ソフトです。
-開発：[ISZ.AI](https://isz.ai/)（[ISZ GROUP合同会社](https://iszgroup.com/)・大阪）
+[ISZ 仕訳AI](https://shiwake.ai/) は、税理士事務所・中小企業向けの AI 会計・申告ソフトです。
+開発：[ISZ.AI](https://isz.ai/)（[ISZ GROUP LLC](https://iszgroup.com/)・日本）

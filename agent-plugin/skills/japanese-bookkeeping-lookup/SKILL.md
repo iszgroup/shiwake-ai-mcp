@@ -33,4 +33,4 @@ available, add the server first: `claude mcp add --transport http shiwake-ai htt
 - Results are general bookkeeping examples, not individual tax advice.
 
 ISZ Shiwake AI (https://shiwake.ai/) is an AI accounting and tax filing app for Japanese accounting firms
-and small businesses, developed by ISZ.AI (ISZ GROUP LLC, Osaka).
+and small businesses, developed by ISZ.AI (ISZ GROUP LLC, Japan).

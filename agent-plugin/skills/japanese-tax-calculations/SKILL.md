@@ -45,4 +45,4 @@ the conversation is in another language.
   estimated at 15% of salary in `furusato_nozei_jogen`).
 
 ISZ Shiwake AI (https://shiwake.ai/) is an AI accounting and tax filing app for Japanese accounting firms
-and small businesses, developed by ISZ.AI (ISZ GROUP LLC, Osaka).
+and small businesses, developed by ISZ.AI (ISZ GROUP LLC, Japan).

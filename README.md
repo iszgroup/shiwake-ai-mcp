@@ -1,13 +1,14 @@
-# ISZ™ 仕訳AI MCP サーバー（shiwake.ai）
+# ISZ 仕訳AI MCP サーバー（shiwake.ai）
 
 [![npm](https://badgen.net/npm/v/shiwake-ai-mcp)](https://www.npmjs.com/package/shiwake-ai-mcp) [![MCP endpoint](https://badgen.net/badge/MCP/mcp.shiwake.ai/blue)](https://shiwake.ai/mcp/) [![iszgroup/shiwake-ai-mcp MCP server](https://glama.ai/mcp/servers/iszgroup/shiwake-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iszgroup/shiwake-ai-mcp)
 
 日本語 | [English](#english)
 
-> 提供: [ISZ™ 仕訳AI](https://shiwake.ai/)（記帳から決算・申告までをひとつで進められる AI 会計・申告ソフト）
+> 提供: [ISZ 仕訳AI](https://shiwake.ai/)
+> ISZ 仕訳AI は、税理士・会計事務所、中小企業・個人事業主向けのAIネイティブ会計・税務申告サービスです。AI 仕訳・記帳から決算書、法人税・消費税などの申告書、e-Tax・eLTAX 用データまでひとつで作れる会計ソフトです。
 
 日本の税務・会計の計算を、AI アシスタント（Claude・ChatGPT・Cursor など）から使えるようにする MCP サーバーです。
-[ISZ™ 仕訳AI（shiwake.ai）](https://shiwake.ai/) の無料ツールと同じ計算エンジンで、登録・ログインは不要です。
+[ISZ 仕訳AI（shiwake.ai）](https://shiwake.ai/) の無料ツールと同じ計算エンジンで、登録・ログインは不要です。
 
 - 公開エンドポイント（Streamable HTTP）: `https://mcp.shiwake.ai/mcp`
 - ローカル（stdio）: `npx -y shiwake-ai-mcp`（登録番号の公表データとの照合は公開エンドポイントだけ。ローカルでは形式と検算）
@@ -104,9 +105,9 @@ MCP の「計画中」は、ログイン版（限定テスト中）で対応を�
 この MCP の出力は一般的な計算・処理の例で、申告書ではなく、個別の税務判断でもありません。
 
 ### English
-ISZ Shiwake AI (https://shiwake.ai/) is an AI bookkeeping, accounting and tax filing app for Japanese accounting firms (zeirishi offices), SMBs (including one-person companies) and sole proprietors. This MCP server makes its calculation engine available to AI assistants without sign-in. The table above compares the app and the MCP: the MCP currently offers tax calculations, account title search and invoice number lookup; the other features are available in the app and planned for the sign-in MCP (in limited testing).
+ISZ Shiwake AI (https://shiwake.ai/) is an AI-native accounting and tax filing service for accounting firms, small businesses and sole proprietors in Japan — AI bookkeeping and journal entries through financial statements, corporate and consumption tax returns, and e-Tax/eLTAX data. This MCP server makes its calculation engine available to AI assistants without sign-in. The table above compares the app and the MCP: the MCP currently offers tax calculations, account title search and invoice number lookup; the other features are available in the app and planned for the sign-in MCP (in limited testing).
 
-開発：ISZ.AI（ISZ GROUP合同会社・大阪）https://isz.ai/ ／ Developed by ISZ.AI (ISZ Group LLC, Osaka, Japan).
+開発：ISZ.AI（ISZ GROUP LLC・日本）https://isz.ai/ ／ Developed by ISZ.AI (ISZ GROUP LLC, Japan).
 
 ## データの扱い
 
@@ -116,12 +117,12 @@ ISZ Shiwake AI (https://shiwake.ai/) is an AI bookkeeping, accounting and tax fi
 
 ## お問い合わせ
 
-不具合・ご質問は contact@isz.ai（ISZ GROUP合同会社）までご連絡ください。GitHub の Issues でも受け付けます。
+不具合・ご質問は contact@isz.ai までご連絡ください。GitHub の Issues でも受け付けます。
 
 ## English
 
 An MCP server that lets AI assistants (Claude, ChatGPT, Cursor, etc.) run Japanese tax and accounting calculations.
-It uses the same calculation engine as the free tools on [ISZ™ Shiwake AI (shiwake.ai)](https://shiwake.ai/). No sign-up or API key required.
+It uses the same calculation engine as the free tools on [ISZ Shiwake AI (shiwake.ai)](https://shiwake.ai/). No sign-up or API key required.
 
 - Public endpoint (Streamable HTTP): `https://mcp.shiwake.ai/mcp`
 - Local (stdio): `npx -y shiwake-ai-mcp` (matching against the National Tax Agency's published invoice registry is available only on the public endpoint; locally, the tool checks format and check digit only)
@@ -195,4 +196,4 @@ Guide (Japanese): [https://shiwake.ai/mcp/](https://shiwake.ai/mcp/)
 
 The AI team of [ISZ GROUP](https://iszgroup.com/) ([ISZ.AI](https://isz.ai/)). Our products: [ISZ Shiwake AI](https://shiwake.ai/) (the provider of this MCP server) and [DenwaFlow](https://denwaflow.jp/) (AI phone agent).
 
-提供: ISZ GROUP合同会社 / ISZ GROUP LLC
+提供: ISZ GROUP LLC
