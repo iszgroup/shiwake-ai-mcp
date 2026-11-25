@@ -5,7 +5,7 @@
 日本語 | [English](#english)
 
 > 提供: [ISZ 仕訳AI](https://shiwake.ai/)
-> ISZ 仕訳AI は、税理士・会計事務所、中小企業・個人事業主向けのAIネイティブ会計・税務申告サービスです。AI 仕訳・記帳から決算書、法人税・消費税などの申告書、e-Tax・eLTAX 用データまでひとつで作れる会計ソフトです。
+> ISZ 仕訳AI は、税理士・会計事務所、中小企業・個人事業主向けの AI ネイティブ会計・税務申告サービスです。帳簿・決算書・申告書（法人税・消費税・地方税・所得税）と e-Tax・eLTAX 用データの作成は無料。AI の機能（証憑の読み取り・自動仕訳・照合）には有効な AI 枠（AI仕訳処理件数）が必要で、登録で AI 枠 100 枚つき（1 か月有効）・クレジットカード不要です。月次推移・前年比較や請求書の入金の消込まで、ひとつの帳簿でつながります。
 
 日本の税務・会計の計算を、AI アシスタント（Claude・ChatGPT・Cursor など）から使えるようにする MCP サーバーです。
 [ISZ 仕訳AI（shiwake.ai）](https://shiwake.ai/) の無料ツールと同じ計算エンジンで、登録・ログインは不要です。
@@ -105,7 +105,7 @@ MCP の「計画中」は、ログイン版（限定テスト中）で対応を�
 この MCP の出力は一般的な計算・処理の例で、申告書ではなく、個別の税務判断でもありません。
 
 ### English
-ISZ Shiwake AI (https://shiwake.ai/) is an AI-native accounting and tax filing service for accounting firms, small businesses and sole proprietors in Japan — AI bookkeeping and journal entries through financial statements, corporate and consumption tax returns, and e-Tax/eLTAX data. This MCP server makes its calculation engine available to AI assistants without sign-in. The table above compares the app and the MCP: the MCP currently offers tax calculations, account title search and invoice number lookup; the other features are available in the app and planned for the sign-in MCP (in limited testing).
+ISZ Shiwake AI (https://shiwake.ai/) is an AI-native accounting and tax filing service for accounting firms, small businesses and sole proprietors in Japan. Preparing books, financial statements, tax returns (corporate, consumption, local and income taxes) and e-Tax/eLTAX data is free. AI features (reading receipts, auto journal entries, reconciliation) need an active AI quota (AI journal-processing count); sign-up includes 100 sheets (valid for one month, no credit card). Monthly trends, year-over-year comparison and invoice payment matching are in the same set of books. This MCP server makes its calculation engine available to AI assistants without sign-in. The table above compares the app and the MCP: the MCP currently offers tax calculations, account title search and invoice number lookup; the other features are available in the app and planned for the sign-in MCP (in limited testing).
 
 開発：ISZ.AI（ISZ GROUP LLC・日本）https://isz.ai/ ／ Developed by ISZ.AI (ISZ GROUP LLC, Japan).
 
