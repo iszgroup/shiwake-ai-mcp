@@ -10,6 +10,8 @@
 日本の税務・会計の計算を、AI アシスタント（Claude・ChatGPT・Cursor など）から使えるようにする MCP サーバーです。
 [ISZ 仕訳AI（shiwake.ai）](https://shiwake.ai/) の無料ツールと同じ計算エンジンで、登録・ログインは不要です。
 
+- ChatGPT: アプリ一覧に「ISZ 仕訳AI (Shiwake AI)」として掲載 — https://chatgpt.com/plugins/plugin_asdk_app_6af852458b0c8191914f91cc8568d34a （「Install plugin」で追加。URL の入力は不要）
+- Claude: コネクタ一覧に掲載 — https://claude.ai/directory/shiwake-ai
 - 公開エンドポイント（Streamable HTTP）: `https://mcp.shiwake.ai/mcp`
 - ローカル（stdio）: `npx -y shiwake-ai-mcp`（登録番号の公表データとの照合は公開エンドポイントだけ。ローカルでは形式と検算）
 
@@ -30,6 +32,8 @@
 どのツールも読み取り専用で、結果には根拠となる shiwake.ai のページへのリンクが付きます。結果は一般的な計算・処理の例で、個別の税務判断ではありません。
 
 ## 使い方
+
+ChatGPT と Claude は、上の一覧のページから追加できます。そのほかのクライアントは次の設定で追加します。
 
 Claude Code:
 
@@ -124,6 +128,8 @@ ISZ Shiwake AI (https://shiwake.ai/) is an AI-native accounting and tax filing s
 An MCP server that lets AI assistants (Claude, ChatGPT, Cursor, etc.) run Japanese tax and accounting calculations.
 It uses the same calculation engine as the free tools on [ISZ Shiwake AI (shiwake.ai)](https://shiwake.ai/). No sign-up or API key required.
 
+- ChatGPT: listed in the ChatGPT apps directory as "ISZ 仕訳AI (Shiwake AI)" — https://chatgpt.com/plugins/plugin_asdk_app_6af852458b0c8191914f91cc8568d34a (click "Install plugin"; no URL entry needed)
+- Claude: listed in the Claude connectors directory — https://claude.ai/directory/shiwake-ai
 - Public endpoint (Streamable HTTP): `https://mcp.shiwake.ai/mcp`
 - Local (stdio): `npx -y shiwake-ai-mcp` (matching against the National Tax Agency's published invoice registry is available only on the public endpoint; locally, the tool checks format and check digit only)
 
@@ -144,6 +150,8 @@ It uses the same calculation engine as the free tools on [ISZ Shiwake AI (shiwak
 All tools are read-only, and every result links to the shiwake.ai page it is based on. Results are general calculation examples, not individual tax advice. Tool descriptions and results are in Japanese.
 
 ### Setup
+
+ChatGPT and Claude users can add it from the directory pages above. For other clients, use the settings below.
 
 Claude Code:
 
